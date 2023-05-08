@@ -1,0 +1,472 @@
+.container {
+    margin-bottom: 1000px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+h1 > a {
+    font-size: 16px;
+}
+
+h1 > p {
+    font-size: 16px;
+}
+
+h2 {
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+th {
+    font-size: 10px;
+}
+
+td {
+    font-size: 8px;
+    width: 80px;
+}
+
+table{
+    border: 0.5px solid;
+    
+    border-collapse: collapse;
+}
+
+/* index 削除ボタン */
+button {
+    border: none;
+    color: red;
+    background-color: #ffffff;
+}
+
+.auxiliary_information {
+    margin-top: 20px;
+}
+
+.bank_balance > .sum {
+    margin-left: 500px;
+    margin-top: -65px;
+    color: yellow;
+    background-color: red;
+    width: 320px;
+    align-items: center;
+}
+
+.bank_balance > .sum > span {
+    font-size: 15px;
+}
+
+.money_carried_forward > a >button {
+    font-size: 10px;
+}
+
+/* 登録ボタン関連 */
+.in > a > button {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.out > a > button {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.customers  > a > button{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+
+.time {
+    font-size: 8px;
+}
+
+.form-group {
+    font-size:12px;
+}
+
+.typing_place {
+    width: 100px;
+    font-size: 12px;
+    height: 50px;
+}
+
+.typing_place_string {
+    width: 300px;
+    font-size:12px;
+    height:50px
+}
+
+
+form {
+    display: inline-block;
+}
+
+.btn_create {
+    font-size: 6px;
+    margin-left:10px;
+    cursor: pointer;
+}
+
+.error {
+    color:red;
+    font-size: 14px;
+}
+
+.sum {
+    font-size: 10px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px; 
+    align-items: center;
+}
+
+.sum > h3 {
+    margin-right: 20px;
+}
+
+.details1 {
+    /* position: relative; */
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+
+.credits {
+    position: relative;
+    text-align: center;
+    left: 50px;
+    margin-top: 50px;
+}
+
+
+.tax_credits {
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.tax_credits > .sum > h2 {
+    margin-left: -20px;
+}
+
+.salary_credits {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.salary_credits > .sum > h2 {
+    margin-left: -20px;
+}
+
+.material_credits {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.material_credits > .sum > h2 {
+    margin-left: -20px;
+}
+
+.auxiliary_material_credits {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.auxiliary_material_credits > .sum > h2 {
+    margin-left: -20px;
+}
+
+.logistics_costs {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.logistics_costs > .sum > h2 {
+    margin-left: -20px;
+}
+
+.entertainment_expenses {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.entertainment_expenses > .sum > h2 {
+    margin-left: -20px;
+}
+
+.travel_expenses {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.travel_expenses > .sum > h2 {
+    margin-left: -20px;
+}
+
+.ticket_fees {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ticket_fees > .sum > h2 {
+    margin-left: -20px;
+}
+
+.miscellaneous_expenses {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.miscellaneous_expenses > .sum > h2 {
+    margin-left: -20px;
+}
+
+.others {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.others > .sum > h2 {
+    margin-left: -20px;
+}
+
+.utility_costs {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.utility_costs > .sum > h2 {
+    margin-left: -20px;
+}
+
+.insurances {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.insurances > .sum > h2 {
+    margin-left: -20px;
+}
+
+.dropdown-menu > li > a:hover {
+    color:#fff;
+    background-color: #005;
+}
+
+.within_china_deposits {
+    margin-top: 20px;
+}
+
+.within_china_deposits > .sum > h2 {
+    margin-left: -20px;
+}
+
+.no_receipt_credits {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.no_receipt_credits > .sum > h2 {
+    margin-left: -20px;
+}
+
+
+
+.money-sidebar-category-label {
+    width: 156px;
+    height: 20px;
+    font-family: YuGo;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #191919;
+}
+
+/* サイドバー */
+.major-sidebar {
+    font-size: 18px;
+    margin: 10px;
+    
+}
+
+.sidebar {
+    font-size: 11px;
+    display: block;
+    margin: 5px;    
+
+}
+
+.sidebar1 {
+    border-bottom: 1.2px #575454 dotted;
+    padding-bottom: 2px;
+    
+}
+
+.category {
+    border: 1.2px #575454 solid;
+
+}
+
+/* サイドバーここまで */
+
+.btn-group {
+    margin: 10px;
+}
+
+.main-container {
+    margin-top: 25px;
+}
+
+.table {
+    margin-top: 10px;
+    width: 450px;
+}
+
+.show-total {
+    margin: 20px;
+    margin-left: -2px;
+    color: red;
+}
+
+
+/* ここから下は損益計算書 */
+/*------------- 印刷設定A4横サイズ --*/
+
+/* --------------------------------- */
+
+
+table,th,td {
+    border: solid 1px black;
+}
+
+td.list {
+    border: solid 1px black;
+    text-align: right;
+}
+
+.totalamount > h3 {
+    display: block;
+}
+
+.th {
+    white-space: nowrap;
+}
+
+.th-twin {
+    border-top: double;
+}
+
+.list-twin {
+    border-top: double;
+    text-align: right;
+}
+
+.recording-period {
+    display: flex;
+    align-items: center;
+}
+
+.recording-period > span {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.recording-period > .reportor {
+    margin: 0 0 0 auto;
+}
+
+/* footer部分 */
+.footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* 損益計算書 */
+.totalamount2022{
+    margin-bottom: 100px;
+}
+.totalamount2023 {
+    margin-bottom: 100px;
+}
+
+.totalamount2024 {
+    margin-bottom: 100px;
+}
+
+.totalamount-no-receipt2022 {
+    margin-top: 20px;
+}
+
+.totalamount-no-receipt2023 {
+    margin-top: 80px;
+}
+
+.totalamount-no-receipt2024 {
+    margin-top: 80px;
+}
+
+/* 合計金額 */
+.table_top {
+    margin-bottom: 10px;
+}
+
+/* メモ帳 */
+.remarks-group{
+    display: flex;
+}
+
+.remarks {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.textarea_date,.textarea_title,.textarea_body {
+    display: flex;
+    align-content: start;
+    padding: 5px;
+    margin: auto 5px;
+}
+
+.textarea_title{
+    height: 100px;
+}
+
+.textarea_body{
+    width: 500px;
+    height: 100px;
+}
+
+.list_total {
+    width: 121px;
+}
+
+.back-link > a {
+    display: block;
+    margin: 5px;
+}
+
+/* 登録コーナー */
+
+.registers-border {
+    border: solid 1px #575454;
+    padding: 5px;
+}
